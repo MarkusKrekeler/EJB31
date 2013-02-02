@@ -22,6 +22,11 @@
 				<artifactId>maven-ejb-plugin</artifactId>
 				<configuration>
 					<ejbVersion>3.0</ejbVersion>
+					 <archive>
+			          <manifest>
+			              <addClasspath>true</addClasspath>
+			           </manifest>
+			         </archive>
 				</configuration>
 			</plugin>
 		</plugins>
@@ -32,6 +37,11 @@
 			<groupId>javaee</groupId>
 			<artifactId>javaee-api</artifactId>
 			<version>5</version>
+		</dependency>
+		<dependency>
+			<groupId>de.adesso.airadessi</groupId>
+			<artifactId>model</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 	</dependencies>
 </project>

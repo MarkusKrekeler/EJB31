@@ -11,6 +11,9 @@
         <dependent-module archiveName="javaee-api-5.jar" deploy-path="/APP-INF" handle="module:/classpath/var/M2_REPO/javaee/javaee-api/5/javaee-api-5.jar">
             <dependency-type>uses</dependency-type>
         </dependent-module>
+        <dependent-module archiveName="model-0.0.1-SNAPSHOT.jar" deploy-path="/APP-INF" handle="module:/resource/airmodel/airmodel">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
         <dependent-module archiveName="slf4j-api-1.5.11.jar" deploy-path="/APP-INF" handle="module:/classpath/var/M2_REPO/org/slf4j/slf4j-api/1.5.11/slf4j-api-1.5.11.jar">
             <dependency-type>uses</dependency-type>
         </dependent-module>
